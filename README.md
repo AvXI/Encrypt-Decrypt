@@ -1,1 +1,3 @@
 # Encrypt-Decrypt
+In this code, we define a class called AESCipher that takes a secret key as input and provides two methods, encrypt and decrypt, for encrypting and decrypting messages, respectively. The encryption algorithm uses the Advanced Encryption Standard (AES) with a block size of 16 bytes and the Cipher Block Chaining (CBC) mode. The algorithm also pads the message to ensure that its length is a multiple of the block size.
+To use the AESCipher class, we first create an instance with the secret key, and then call the encrypt method to encrypt a message and the decrypt method to decrypt the encrypted message.
